@@ -10,6 +10,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="index.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
@@ -26,5 +27,102 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">НЛК</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Портфолио <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Рейтинг</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Помощь</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="jumbotron">
+      <h1 class="display-4">Портфолио</h1>
+      <p class="pJumbotron">
+        Это место, где собраны ваши научные публикации. Здесь вы можете
+        добавлять свои научные работы, получать информацию об их уникальности и
+        смотреть отзывы ваших научных руководителей.
+      </p>
+
+      <a class="btn btn-primary btn-lg" href="#" role="button"
+        >Добавить работу</a
+      >
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <h5 class="card-header">Ваш профиль</h5>
+          <div class="card-body">
+            <h5 class="card-title">Сергей Павлович Фролов</h5>
+            <p class="card-text">
+              <b>Научная степень:</b>
+              Магистр.
+            </p>
+            <p class="card-text">
+              <b> Специализация:</b>
+              Инвестиционные проблемы экономически развивающихся рынков.
+            </p>
+            <a href="#" class="btn btn-primary">Редактировать</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <h5 class="card-header">Статистика</h5>
+          <div class="card-body">
+            <h5 class="card-title">Сергей Павлович Фролов</h5>
+            <p class="">
+              <b>На платформе:</b>
+              2 года.
+            </p>
+            <p class="">
+              <b> Добавлено работ:</b>
+              10.
+            </p>
+            <p class="">
+              <b> Средняя уникальность:</b>
+              75%.
+            </p>
+            <p class="">
+              <b> Языки работ:</b>
+              русский, английский.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
